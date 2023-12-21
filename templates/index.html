@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>财务需求助手示例</title>
+</head>
+<body>
+    <h1>财务需求助手示例</h1>
+    <form method="POST" action="/">
+        {{ form.csrf_token }}
+        {{ form.comment.label }}
+        {{ form.comment }}
+        {{ form.submit }}
+    </form>
+</body>
+</html>
